@@ -35,15 +35,22 @@
     -webkit-animation-timing-function: linear;
 }
 
+
+
 #one {
     /* Sets the Image to the ID */
     background-image: url(./images/RightArmExodia.png);
 }
 
+
 #two {
     /* Sets the Image to the ID */
     background-image: url(./images/Exodia.png);
 }
+
+/* #two:hover {
+    opacity: 0;
+} */
 
 #three {
     /* Sets the Image to the ID */
