@@ -18,6 +18,23 @@
     
 }
 
+/* Continue Rotation in circular motion on hoover */
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+.card:hover {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 1.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
 #one {
     /* Sets the Image to the ID */
     background-image: url(./images/RightArmExodia.png);
@@ -42,3 +59,4 @@
     /* Sets the Image to the ID */
     background-image: url(./images/LeftLegExodia.png);
 }
+
